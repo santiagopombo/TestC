@@ -1,0 +1,9 @@
+applications:
+- name: expense-client
+  env:
+    API_URL: 'http://expense-api.ec2.stacktest.io/'
+  mem: 128M
+  services:
+  stackato:
+    ignores:
+    - node_modules
